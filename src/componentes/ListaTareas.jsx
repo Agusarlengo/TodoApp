@@ -25,6 +25,6 @@ export function ListaTareas ({tareas, onDelete, onComplete}){
                     <Tarea key={tarea.id} tarea={tarea} onDelete = {onDelete} onComplete = {onComplete} />
                 ))}
             </div>
-        </section>
+        </section>      
     )
 }
