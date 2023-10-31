@@ -15,7 +15,7 @@ export function ListaTareas ({tareas, onDelete, onComplete}){
                 </div>
 
                 <div>
-                    <p className ={styles.textPurple}>Tareas Completas</p>
+                    <p className ={styles.textPink}>Tareas Completas</p>
                     <span>{tareasCompletas} de {cantidadTareas}</span>
                 </div>
             </header>
